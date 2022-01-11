@@ -1,6 +1,12 @@
+<html>
+  <form method="GET">
+    <label for="ano">Insira o ano que deseja saber a qual século pertence</label>
+    <input name="ano" type="text">
+    <input type="submit" value="Conferir">
+  </form>
+</html>
+
 <?php
-
-
 function verificaSeculo($ano){
   $divisaointeira = intval($ano) % 100;
   // se são anos "redondos" (ex.: 1700, 1800, 2100) é só dividir por cem que obtém-se o século
