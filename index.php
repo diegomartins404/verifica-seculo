@@ -1,10 +1,3 @@
-<html>
-  <form method="GET">
-    <label for="ano">Insira o ano que deseja saber a qual século pertence</label>
-    <input name="ano" type="text">
-    <input type="submit" value="Conferir">
-  </form>
-</html>
 <?php
 
 
